@@ -3,6 +3,8 @@
 
 Fixing other people's code :)
 
-<!-- <div>
-    <img src="./img/.svg"/>
-</div> -->
+<div>
+    <img src="./img/debug-stop.svg" />
+    <img src="./img/debug.svg" />
+    <img src="./img/debug-script.svg" />
+</div>
