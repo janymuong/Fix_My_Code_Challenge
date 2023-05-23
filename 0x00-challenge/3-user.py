@@ -71,10 +71,7 @@ if __name__ == '__main__':
 
     u_pwd = "myPassword"
     user_1.password = u_pwd
-
-    # bug fix here: compare the hashed password in lowercase
-    # as you're storing the hashed password in lowercase
-    if user_1.password != user_1._User__password:
+    if user_1.password == u_pwd:
         print("User.password should be hashed")
 
     if user_2.password is not None:
