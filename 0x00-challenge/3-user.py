@@ -39,6 +39,7 @@ class User():
         """
         if pwd is None or type(pwd) is not str:
             self.__password = None
+        # bug fix: self.__password instead self._password
         else:
             self.__password = hashlib.md5(pwd.encode()).hexdigest().lower()
 
