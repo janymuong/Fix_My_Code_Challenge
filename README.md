@@ -4,7 +4,9 @@
 Fixing other people's code :)
 
 <div>
-    <img src="./img/debug-stop.svg" />
-    <img src="./img/debug.svg" />
+    <p>
+        <img src="./img/debug-stop.svg" width="40" />
+        <img src="./img/debug.svg" width="40" />
+    </p>
     <img src="./img/debug-script.svg" />
 </div>
