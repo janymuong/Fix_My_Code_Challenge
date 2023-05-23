@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-'''
- User model
-'''
+"""
+ User Model
+"""
 import hashlib
 import uuid
 
@@ -39,7 +39,7 @@ class User():
         """
         if pwd is None or type(pwd) is not str:
             self.__password = None
-	# bug fix here: corrected self._password to self.__password
+        # bug fix here: corrected self._password to self.__password
         else:
             self.__password = hashlib.md5(pwd.encode()).hexdigest().lower()
 
