@@ -24,7 +24,7 @@ class Square():
 
     def __str__(self):
         '''return string representation of square'''
-        return f'{self.width}/{self.height}'
+        return '{}/{}'.format(self.width, self.height)
 
 
 if __name__ == '__main__':
